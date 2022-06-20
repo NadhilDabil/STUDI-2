@@ -18,6 +18,8 @@
         }
         
 
+
+        
         $sql = "INSERT INTO karyawan (id_karyawan, nama_karyawan, jenis_kelamin, no_hp, tgl_lembur, jam_masuk, jam_selesai)
                 VALUES ('$id_karyawan','$nama_karyawan', '$jenis_kelamin','$no_hp','$tgl_masuk', '$jam_masuk', '$jam_selesai')";
                 $mysqli -> query($sql) or die ($mysqli -> error);
